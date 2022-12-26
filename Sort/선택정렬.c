@@ -1,4 +1,4 @@
-#include "Çì´õ.h"
+#include "pgm.h"
 
 double move;
 double compare;
@@ -29,6 +29,6 @@ int main() {
 	print(arr, MAX);
 	end = clock();
 	double dur = (double)((end - start)*1000) / CLOCKS_PER_SEC;
-	printf("¼Ò¿ä½Ã°£: %.2lf\n", dur);
-	printf("ÀÌµ¿È½¼ö: %lf, ºñ±³È½¼ö: %lf", move, compare);
+	printf("ì†Œìš”ì‹œê°„: %.2lf\n", dur);
+	printf("ì´ë™íšŸìˆ˜: %lf, ë¹„êµíšŸìˆ˜: %lf", move, compare);
 }
