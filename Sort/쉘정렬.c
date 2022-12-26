@@ -1,4 +1,4 @@
-#include "혜더.h"
+#include "pgm.h"
 
 double compare;
 double move;
