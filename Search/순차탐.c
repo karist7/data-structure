@@ -1,4 +1,4 @@
-#include "혜더.h"
+#include "pgm.h"
 
 int seq_search(int list[],int key, int low, int high) {
 	for (int i = low; i < high; i++) {
