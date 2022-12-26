@@ -1,4 +1,4 @@
-#include "혜더.h"
+#include "pgm.h"
 
 int arr[MAX];
 int partition(int list[], int left, int right) {
